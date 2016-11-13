@@ -35,6 +35,8 @@ nav{
 	font-size: 20px;
 	margin-left: 25px;
 	text-decoration: none;
+	
+	border-radius: 3px;
 }
 .navbar:hover {
 	text-decoration: underline;
@@ -43,6 +45,13 @@ span {
 	width:100%;
 }
 h1{
+	font-size:80px;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	padding-top: 200px;
+}
+h5{
 	font-size:80px;
 	color: #fff;
 	text-align: center;
