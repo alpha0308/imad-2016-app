@@ -1,0 +1,164 @@
+body {
+	margin:0px;
+	font-family: 'Bubblegum Sans', cursive;
+}
+
+.main 
+{
+	height: 700px;
+
+	background-image: url("background.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media screen and (min-width:1000px)
+{
+	#container 
+	{
+		height: 700px;
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+.header {
+	margin-top: 0px;
+	width: 1000px;
+	margin: 0 auto;
+}
+nav{
+	float: right;
+	margin-top: 10px;
+}
+.navbar{
+	color: #fff;
+	font-size: 20px;
+	margin-left: 25px;
+	text-decoration: none;
+}
+.navbar:hover {
+	text-decoration: underline;
+}
+span {
+	width:100%;
+}
+h1{
+	font-size:80px;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	padding-top: 200px;
+}
+h2 {
+	font-size:36px;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	margin-top: -50px;
+	
+}
+
+/*header section */
+
+#head {
+		width: 100%;
+		height: 350px;
+		background-image: url("background.png");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+.port{
+	padding-top: 75px;
+}
+
+.portfolio{
+	position: relative;
+	width: 300px;
+	height: 250px;
+	box-shadow: 10px 10px grey;
+	border: 1px solid black;
+	left: 130px; 
+}
+.padding{
+	padding-left: 10px;
+	
+}
+.one {
+	padding: 50px;
+	display: inline-block;
+
+	
+}
+
+
+/* footer section*/
+
+
+footer{
+	width:100%;
+	height:395px;
+	background-color: #183951;
+	margin-top: 50px;
+}
+
+#foot{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+
+
+div.social{
+
+	float: left;
+	margin-top: 20px;
+}
+.social{
+	display: inline-block;
+}
+a.social{
+	margin-right: 25px;
+}
+
+div.contact {
+	float: right;
+	margin-right: 0 auto;
+	margin-top: 20px;
+}
+
+label {
+	color: #ffff;
+	
+}
+input.text{
+	height: 20px;
+	width: 300px;
+	border-radius:3px;
+	border: none;
+	
+}
+
+textarea.message
+{
+	height: 100px;
+	width: 250px;
+	border-radius:3px;
+	border: none;
+	
+}
+input.submit{
+	width: 60px;
+	height: 30px;
+	background-color:#ffff;
+	color:#183951;
+	border: none;
+	border-radius: 4px;
+}
+
+input.submit:hover{
+	text-decoration: underline;
+}
